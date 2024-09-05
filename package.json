@@ -1,0 +1,16 @@
+{
+  "name": "my-node-app",
+  "version": "1.0.0",
+  "description": "A simple Node.js application for demonstration",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "pkg . --targets node14-linux-x64 --output my-node-app"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {},
+  "bin": {
+    "my-node-app": "./index.js"
+  }
+}
